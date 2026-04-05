@@ -1,10 +1,9 @@
-#include <iostream>    
-#include <string>    
-using namespace std;  
+#include <iostream>
+#include <string>
 int main(){
 
-string n;
-cout<<"Enter name: "
-cin >> n;
-cout<<endl<<"Hello world from "<<n<<endl;
- return 0;}  
+std::string n;
+std::cout<<"Enter name: ";
+std::cin >> n;
+std::cout<<std::endl<<"Hello world from "<<n<<std::endl;
+ return 0;}
